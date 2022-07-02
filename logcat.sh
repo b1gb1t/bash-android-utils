@@ -8,7 +8,7 @@ function logcat() {
     local pid=${info%% *}
     echo "PID: $pid"
     echo "APP: $app"
-	echo "-----------"
+    echo "-----------"
     adb logcat --pid=$pid
 
 }
